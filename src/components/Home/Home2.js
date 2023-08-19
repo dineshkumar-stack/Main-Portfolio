@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/pp2.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/dinesh-kumar-494745243/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/iam_stardinesh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
