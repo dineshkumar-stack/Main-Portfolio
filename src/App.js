@@ -32,6 +32,12 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <div class="bg"></div>
+
+        <div class="star-field">
+          <div class="layer"></div>
+          <div class="layer"></div>
+          <div class="layer"></div>  </div>
         <Navbar />
         <ScrollToTop />
         <Routes>
@@ -39,7 +45,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
